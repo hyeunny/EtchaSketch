@@ -1,0 +1,5 @@
+#grid_container{
+	margin: auto;
+	overflow: auto;
+	width: 960px;
+}
