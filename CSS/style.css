@@ -1,5 +1,48 @@
 #grid_container{
 	margin: auto;
+	width: 530px;
+	height: 530px;
 	overflow: auto;
-	width: 960px;
 }
+
+#button_container{
+	margin: auto;
+	margin-bottom: 10px;
+	width: 800px;
+	text-align: center;
+
+}
+
+button{
+	background-color: yellow;
+}
+
+body{
+	background-color: black;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-family: verdana;
+	opacity: 0.7;
+}
+
+.grid_square.grid_square_lit{
+	background-color: yellow;
+
+}
+
+.grid_square.grid_square_litp2{
+	background-color: red;
+}
+
+.grid_square{
+	background-color: gray;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+    float: left;
+    opacity: 0.5;
+}
+
